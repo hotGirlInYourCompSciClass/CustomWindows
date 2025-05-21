@@ -38,10 +38,9 @@ def run_train(master_root):
     screen_width = master_root.winfo_screenwidth()
     screen_height = master_root.winfo_screenheight()
 
-    # Scale window size to screen
-    window_width = int(screen_width * 1)
-    window_height = int(screen_height * 0.25)
-    y_offset = int(screen_height * 0.4)
+    window_width = int(screen_width * 2)
+    window_height = int(screen_height * 0.5)
+    y_offset = int(screen_height * 0.25)
 
     # Load and scale images
     def load_scaled_image(path):
@@ -74,7 +73,7 @@ def run_train(master_root):
     back_label = tk.Label(backWin, image=train_back_img, bg="white")
     back_label.pack()
 
-    speed = 1000
+    speed = 1500
     last_time = time.time()
     x_pos = -window_width - 4000
 
