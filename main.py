@@ -9,7 +9,7 @@ root.withdraw()
 
 run_bouncing_window(root)
 run_train(root)
-run_goodGirl(root)
+run_good_girl(root)
 
 root.mainloop()
 
