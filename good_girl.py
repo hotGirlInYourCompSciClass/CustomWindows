@@ -11,5 +11,6 @@ def run_good_girl():
     m.attributes("-topmost", True)
 
 
-
-run_good_girl()
+root = tk.Tk()
+root.withdraw()
+run_good_girl(root)
